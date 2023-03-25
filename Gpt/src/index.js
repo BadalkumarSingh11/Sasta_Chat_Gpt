@@ -6,7 +6,7 @@ app.use(cors());
 
 // COPY FROM OPEN AIimport { Configuration, OpenAIApi } from "openai";
 const { Configuration ,OpenAIApi } = require("openai");
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "Enter you API key here ";
 const configuration = new Configuration({
     apiKey: OPENAI_API_KEY,
 });
